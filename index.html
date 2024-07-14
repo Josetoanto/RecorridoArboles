@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="icon" href="images/graduation-hat.png">
+    <title>Gestion de Contactos</title>
+
+</head>
+<body>
+    <script type="module" src="/src/controllers/script.js"></script>
+
+    <div id="center">
+    <input id ="firstName" type="text" placeholder="Nombre Completo">
+    <input id ="lastName" type="text" placeholder="Matricula">
+    <input id ="phoneNumber" type="text" placeholder="Grupo">
+    <button id="agenda-btn">Añadir</button>
+    <div>  
+    </div>
+    <input id = "lastNameSearch"type="text" placeholder="Matricula a buscar">
+    <button id = "buscar-btn">Buscar</button>
+    <button id = "min-btn">Matricula mas baja</button>
+    <button id = "max-btn">Matricula mas alta</button>
+    <button id="search-all"> Mostrar todos los estudiantes </button>
+    <div id="contact-display">
+        <div id="contact-1"></div>
+        <div id="contact-2"></div>
+        <div id="contact-3"></div>
+    </div>
+    <button id="prev-btn">Atrás</button>
+    <button id="next-btn">Siguiente</button>
+    </div>
+</body>
+</html>
